@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+#works #work #magnify {
+    width:100vw;
+    height:100vh;
+    background:rgba(0, 0, 0, 0.92);
+    position:fixed;
+    z-index:4;
+    display:none;
+    flex-direction: column;
+    justify-content:center;
+}
+#works #work #magnify h1 {
+    position:absolute;
+    top:0;
+    right:0;
+    margin:20px 40px;
+    color:#fff;
+    transition:0.4s ease-in-out;
+}
+#works #work #magnify h1:hover{
+    color:rgb(44, 118, 255);
+    cursor:pointer;
+}
+#works #work #img_here {
+    width:90%;
+    height:90%;
+    background-size:contain !important;
+    background-repeat:no-repeat !important;
+    margin:0px auto;
+}
+
+
+#works #work {
+    width: 95vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#works #work h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(44, 118, 255);
+    width:6%;
+}
+#works #work #photos {
+    width:100%;
+    columns:3;
+    column-gap:4%;
+    border-radius: 20px;
+    z-index:1;
+    transition:0.4s ease-in-out;
+}
+#works #work #photos img {
+    width:100%;
+    height:auto;
+    border-radius: 7px;
+    margin:4.5% 0px;
+    transition:0.4s ease-in-out;
+}
+#works #work #photos img:hover {
+    transform: scale(0.9);
+    border-radius: 10px;
+    cursor: pointer;
+}
